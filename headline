@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Moje Python Hry</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #1e1e1e;
+      color: #fff;
+      text-align: center;
+      padding: 40px;
+    }
+    .game {
+      background: #2c2c2c;
+      margin: 20px auto;
+      padding: 20px;
+      width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .game img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    h1 {
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Moje Python Hry (Pyglet)</h1>
+
+  <div class="game">
+    <h2>Space Shooter</h2>
+    <img src="obrazky/space_shooter.png" alt="screenshot">
+    <p>Vesmírná střílečka vytvořená v Pygletu.</p>
+    <a class="button" href="hry/space_shooter.zip" download>Stáhnout hru</a>
+  </div>
+
+  <div class="game">
+    <h2>Had</h2>
+    <img src="obrazky/had.png" alt="screenshot">
+    <p>Klasická Snake hra v Pythonu.</p>
+    <a class="button" href="hry/had.zip" download>Stáhnout hru</a>
+  </div>
+
+</body>
+</html>
